@@ -1,0 +1,11 @@
+body{
+    display: grid;
+    background-color: gray
+    ;
+
+}
+
+header{
+    display: flex;
+    background-color: black;
+}
