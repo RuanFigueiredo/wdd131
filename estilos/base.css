@@ -1,0 +1,35 @@
+nav ul{
+        display: flex;
+        justify-content: space-around; 
+}
+nav ul li{
+    list-style: none;
+    flex: 1 1 100%;
+}
+
+header h1{
+    font-size: 2.5rem;
+    color: #333;
+    display: flex;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+span{
+    display: block;
+}
+
+main h1{
+    display: grid;
+    place-items: center;
+    grid-column: 1 / -1;
+}
+
+.card{
+    border: 1px solid #ccc;
+}
+
