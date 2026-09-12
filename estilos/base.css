@@ -2,7 +2,6 @@ nav ul{
         display: flex;
         justify-content: space-around; 
         list-style: none;
-        padding: 50px;
         background-color: rgb(61, 60, 60);
         margin-bottom: 20px;
         margin-top: 10px;
@@ -13,9 +12,9 @@ nav ul li a{
     display: block;
     padding:10px 15px;
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     transition: all 0.3s ease;
-    font-weight: 500;
+    font-weight: 100;
 
 }
 
@@ -45,13 +44,12 @@ header {
     display: block;
 }
 header  span{
-    color: #ffffff;
     font-weight: 400;
     justify-content: center;
     font-size: 2.5rem;
     color: #333;
     display: flex;
-      background-color: rgb(94, 94, 184);
+    background-color: rgb(94, 94, 184);
 }
 
 footer{
