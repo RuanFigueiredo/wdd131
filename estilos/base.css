@@ -44,7 +44,7 @@ main{
 header {
     display: block;
 }
-header  span h1{
+header  span{
     color: #ffffff;
     font-weight: 400;
     justify-content: center;
