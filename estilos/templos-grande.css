@@ -1,11 +1,12 @@
 @media screen and (min-width: 500px){
     header {
+        display: flex;
         background-color: rgb(123, 175, 151);
         color: #ffffff;
-        margin: 0 158px;;
 
     }
     header nav ul li a{
+        display: flex;
         background-color: rgb(123, 175, 151);
         color: #ffffff;
 
