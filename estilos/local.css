@@ -20,7 +20,7 @@ body {
 }
 
 header{
-    background-color: #004d40;
+    background-color: var(--primary-color);
     color: #fff;
     text-align: center;
     padding: 1.5rem;
@@ -44,7 +44,7 @@ main {
 }
 
 .data-box, .weather-box {
-    background-color: white;
+    background-color: #ffffff;
     border:2px solid #333;
     padding: 20px;
     border-radius: 8px;
