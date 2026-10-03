@@ -13,13 +13,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="scripts/templos.js" defer></script>
     <title>WDD 131 – Fundamentos da Web Dinâmica - Ruan Figueiredo</title>
-
 </head>
 <body>
     <header>
-        <p>Álbum do Templo</p>
-        <nav>
-            <ul>
+        
+        <nav class="nav-menu">
+            <button id="hamburguer-button" class="hamburguer-button" aria-label="Menu-Principal" aria-controls="menu" aria-expanded="true">
+                <span class="icon">Álbum do Templo</span>
+            </button>
+
+            <ul id="menu" class="menu" aria-hidden="false">
                 <li><a href="#">Página Inicial</a></li>
                 <li><a href="#">Antigo</a></li>
                 <li><a href="#">Novo</a></li>

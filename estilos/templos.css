@@ -10,6 +10,13 @@ header nav ul{
 
 }
 
+.menu li a{
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
 
 nav ul li a:hover{
     background-color: #f0f0f0;
@@ -19,8 +26,35 @@ nav ul li a:hover{
     
 }
 
+.nav-menu {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
 
+    
+}
 
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #444;
+}
+
+.hamburguer-button .icon {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+.hamburguer-button[aria-expanded="false"] .icon::before{
+    content: "\2630";
+}
+
+.hamburguer-button[aria-expanded="true"] .icon::before{
+    content: "\2715";
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -53,4 +87,5 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 
