@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"  content="WDD 131 – Fundamentos da Web Dinâmica - Ruan Figueiredo(Desenvolvimento Web, html,CSS e JS)">
     <meta name="author" content="Ruan Figueiredo">
     <link rel="stylesheet" href="estilos/local.css">
+    <link rel="stylesheet" href="estilos/local-mobile.css">
     <script src="scripts/local.js" defer></script>
     <title>WDD 131 – Fundamentos da Web Dinâmica - Ruan Figueiredo</title>
 </head>
 <body>
     <!--Cabeçalho com o título do local-->
     <header>
-        <h1>Bonito</h1>
+        <h1>Rio Grande Do Norte</h1>
     </header>
     <!--Conteúdo principal-->
     <main>
@@ -21,17 +21,20 @@
         <section class="data-box">
             <h2>Data</h2>
             <ul>
-                <li><strong>Label:</strong> Value</li>
-                <li><strong>Label:</strong> Value</li>
-                <li><strong>Label:</strong> Value</li>
-                <li><strong>Label:</strong> Value</li>
-                <li><strong>Label:</strong> Value</li>
-                <li><strong>Label:</strong> Value</li>
+                <li><strong>Area:</strong> 167,4 km²</li>
+                <li><strong>Population:</strong> 785.000</li>
+                <li><strong>Capital:</strong> Natal</li>
+                <li><strong>Languages:</strong> Portuguese</li>
+                <li><strong>Currency:</strong> Brazilian Real (BRL)</li>
+                <li><strong>Time Zone:</strong> America/Fortaleza</li>
             </ul>
         </section>
     <!--Imagem principal-->
     <div class="image-box">
-        <img src="imagens/templo-paris.webp" alt="templo de paris">
+        <img src="imagens/morro do careca.webp"
+        srcset="imagens/morro do careca.webp 500w, imagens/morro do careca.webp 1000w"
+        sizes="(max-width: 768px) 100vw, 50vw"
+        alt="Morro do Careca">
     </div>
 
     <!--caixa de clima(weather)-->
@@ -39,10 +42,10 @@
             <h2>Weather</h2>
             <div class="weather-icon">☀️</div>
             <ul>
-                <li><strong>Label:</strong> Value</li>
-                <li><strong>Label:</strong> Value</li>
-                <li><strong>Label:</strong> Value</li>
-                <li><strong>Label:</strong> Value</li>
+                <li><strong>Temperature:</strong> 27°C</li>
+                <li><strong>Conditions:</strong> Sunny</li>
+                <li><strong>Wind:</strong> 19 km/h</li>
+                <li><strong>Wind Chill:</strong> 29°C</li>
             </ul>
         </section>
     </main>
