@@ -1,0 +1,10 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
