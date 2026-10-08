@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ruan Figueiredo">
+    <meta name="description"  content="WDD 131 – Fundamentos da Web Dinâmica - Ruan Figueiredo(Desenvolvimento Web, html,CSS e JS)">
+    <script src="scripts/formulario.js" defer></script>
+    <link rel="stylesheet" href="estilos/formulario.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h3>Avaliação do Produto</h3>
+    </header>
+
+    <main>
+        <form action="avaliacao.html" method="get">
+            <label for="nome-produto">Nome do Produto:</label>
+            <select name="nome-produto" id="nome-produto" required>
+                <option value="" disabled selected>Escolha um produto...</option>
+            </select>
+            <div class="form-group">
+                <label for="nota">Classificação Geral</label>
+                <div>
+                    <input type="radio" id="star1" name="classificacao" value="1" required>
+                    <label for="star1">&star;</label>
+                </div>
+                <div>
+                    <input type="radio" id="star2" name="classificacao" value="2" required>
+                    <label for="star2">&star;&star;</label>
+                </div>
+                <div>
+                    <input type="radio" id="star3" name="classificacao" value="3" required>
+                    <label for="star3">&star;&star;&star;</label>
+                </div>
+                <div>
+                    <input type="radio" id="star4" name="classificacao" value="4" required>
+                    <label for="star4">&star;&star;&star;&star;</label>
+                </div>
+                <div>
+                    <input type="radio" id="star5" name="classificacao" value="5" required>
+                    <label for="star5">&star;&star;&star;&star;&star;</label>
+                </div>
+                <label for="data-instalacao">Data da Instalação</label>
+                <input type="date" id="data-instalacao" name="data-instalacao" required>
+
+                <label>Quais Recursos você achou úteis no produto?<em>(Marque todos que se aplicam)</em></label><br>
+
+                <input type="checkbox" id="recurso1" name="recurso" value="Durabilidade">
+                <label for="recurso1">Durabilidade</label><br>
+
+                <input type="checkbox" id="recurso2" name="recurso" value="Facilidade de Uso">
+                <label for="recurso2">Facilidade de Uso</label><br>
+
+                <input type="checkbox" id="recurso3" name="recurso" value="Desempenho">
+                <label for="recurso3">Desempenho</label><br>
+
+                <input type="checkbox" id="recurso4" name="recurso" value="Design">
+                <label for="recurso4">Design</label><br>
+
+                <label for="avaliacao-escrita">Avaliação Escrita (Opcional)</label>
+                <textarea id="avaliacao-escrita" name="avaliacao-escrita"></textarea>
+
+                <label for="nome-usuario">Seu nome(opcional)</label>
+                <input type="text" id="nome-usuario" name="nome-usuario">
+                
+                <input type="submit" value="Publicar Avaliação">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="anoAtual"></span> - Ruan Figueiredo.</p>
+        <!--<p id="ultimaModificacao"><span id="dataModificacao">última modificação: </span></p>-->
+        <p id="ultimaModificacao">última modificação: <span id="dataModificacao"></span></p>
+    </footer>
+</body>
+</html>
