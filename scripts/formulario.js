@@ -41,3 +41,14 @@ const produtos = [
     classificacaomedia: 5.0
   }
 ];
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Verifica se estamos na página de avaliação para atualizar o contador
+    const displayContador = document.querySelector("#contador");
+    if (displayContador) {
+        let numAvaliacoes = Number(window.localStorage.getItem("numAvaliacoes-ls")) || 0;
+        numAvaliacoes++;
+        window.localStorage.setItem("numAvaliacoes-ls", numAvaliacoes);
+        displayContador.textContent = numAvaliacoes;
+    }
+});
