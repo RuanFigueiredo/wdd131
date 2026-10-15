@@ -8,3 +8,53 @@ h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
     color: #D32F2F; 
 }
+
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none; 
+        flex-direction: column;
+    }
+
+    .menu.ativo {
+        display: flex;
+    }
+}
+
+.cardapio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.cardapio-grid figure {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    background: #fff;
+}
+
+.cardapio-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.hamburguer-button {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburguer-button {
+        display: block;
+    }
+}
