@@ -1,0 +1,10 @@
+ body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6; margin: 20px;
+    color: #333; 
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #D32F2F; 
+}
